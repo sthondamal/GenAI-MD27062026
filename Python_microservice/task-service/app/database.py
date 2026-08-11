@@ -16,3 +16,6 @@ task_collection = database.get_collection("tasks")
 
 
 #MONGO DB -> DB(task_service_db) -> multiple collections(tables) -> tasks
+
+#whenever u insert a data into mongo db, by default mongo db will have a placeholder or a unique
+#key called as _id(object id)
